@@ -1,0 +1,14 @@
+{
+  "name": "mean-web-development",
+  "version": "1.0.0",
+  "description": "Project based on the book \"Mean Web Development\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HeadWiki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
