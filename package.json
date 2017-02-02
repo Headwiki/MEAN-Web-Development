@@ -9,6 +9,11 @@
   "author": "HeadWiki",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.1"
+    "body-parser": "^1.16.0",
+    "compress": "^0.99.0",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "method-override": "^2.3.7",
+    "morgan": "^1.7.0"
   }
 }
