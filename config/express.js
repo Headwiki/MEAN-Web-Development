@@ -1,4 +1,4 @@
-// app/config/express.js
+// config/express.js
 
 const config          = require('./config')
 const express         = require('express')
@@ -31,6 +31,7 @@ module.exports = () => {
   app.set('view engine', 'ejs')
 
   require('../app/routes/index.server.routes.js')(app)
+  require('../app/routes/users.server.routes.js')(app)
 
   app.use(express.static('./public'))
 
